@@ -30,7 +30,7 @@ export default {
       name: 'in-progress',
       tasks: [
         {
-          description: '',
+          description: 'Just a temporary description',
           name: 'first task',
           id: uuid(),
           userAssigned: null
