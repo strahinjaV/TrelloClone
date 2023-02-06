@@ -49,7 +49,7 @@ export default new Vuex.Store({
     },
     CREATE_COLUMN (state, { name }) {
       state.board.columns.push({
-        name, 
+        name,
         tasks: []
       })
     }
